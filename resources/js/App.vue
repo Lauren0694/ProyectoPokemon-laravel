@@ -14,10 +14,9 @@
                 </div>
                 <!-- for logged-in user-->
                 <div class="navbar-nav col-md-7 offset-md-5" v-else>
-                    <router-link to="/dashboard" class="nav-item nav-link text-white">Pokemons</router-link> 
-                    <router-link to="/liked-pokemons" class="nav-item nav-link text-white">My Likes</router-link> 
-                    <router-link to="/liked-pokemons" class="nav-item nav-link text-white">My Likes</router-link> 
-                    <a class="nav-item nav-link text-danger" style="cursor: pointer;" @click="logouta">Logout</a>
+                    <router-link to="/dashboard" class="nav-item nav-link text-white">Dashboard</router-link> 
+                    <router-link to="/liked-pokemons" class="nav-item nav-link text-white">Mis Favoritos</router-link>  
+                    <a class="nav-item nav-link" style="cursor: pointer;" @click="logouta">Logout</a>
                 </div>
             </div>
             </div>
